@@ -1,0 +1,6 @@
+@import '@daffodil/design/daff-global';
+@import '@daffodil/design/daff-typography';
+
+@import './scss/theme';
+$black: #222222;
+@include daff-theme($theme);

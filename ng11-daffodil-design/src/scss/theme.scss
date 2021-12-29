@@ -1,0 +1,8 @@
+@import '@daffodil/design/daff-theme';
+
+// These palettes describe the colors that make up the "theme" of the components.
+
+$primary: daff-configure-palette($daff-yellow, 60);
+$secondary: daff-configure-palette($daff-purple, 60);
+$tertiary: daff-configure-palette($daff-blue, 60);
+$theme: daff-configure-theme($primary, $secondary, $tertiary, 'light');
