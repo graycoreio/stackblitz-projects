@@ -4,7 +4,7 @@ A collection of Stackblitz Projects representing usage examples of Daffodil and 
 
 ## Contents
 
-* [Angular 11](#angular-11)
+- [Angular 11](#angular-11)
 
 ### Angular 11
 
@@ -15,3 +15,4 @@ A simple Angular app                                                            
 An Angular app using `@daffodil/design`                                                           | @daffodil/design          | [Stackblitz](https://stackblitz.com/edit/ng11-daffodil-design)
 Resolving URLs like `/sweatshirts` instead of `/collection/131`                                   | @daffodil/external-router | [Stackblitz](https://stackblitz.com/edit/ng11-daffodil-external-router)
 Resolving URLs like `/sweatshirts` instead of `/collection/131` with `daffInsertDataPathStrategy` | @daffodil/external-router | [Stackblitz](https://stackblitz.com/edit/ng11-daffodil-external-router-daff-path)
+Switching the `@daffodil/product` driver                                                          | @daffodil/product         | [Stackblitz](https://stackblitz.com/edit/ng11-daffodil-product-driver-switch)
