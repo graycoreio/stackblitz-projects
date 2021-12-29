@@ -4,7 +4,7 @@ A collection of Stackblitz Projects representing usage examples of Daffodil and 
 
 ## Contents
 
-* [Angular 11](./#angular-11)
+* [Angular 11](#angular-11)
 
 ### Angular 11
 
