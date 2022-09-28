@@ -20,7 +20,14 @@ Use Case                                                                        
 
 ### Angular 13
 
+<<<<<<< HEAD
 Use Case                                                                                                                     |  Package          
 ---------------------------------------------------------------------------------------------------------------------------- | ------------------
 [An Angular app using `@daffodil/design`](https://stackblitz.com/edit/ng13-daffodil-design)                                  | @daffodil/design
 [An Angular app using `@daffodil/design` with a custom theme](https://stackblitz.com/edit/ng13-daffodil-design-custom-theme) | @daffodil/design
+=======
+| Use Case                                                                                                                                                                |  Package         ｜
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------｜
+| [An Angular app using `@daffodil/design`](https://stackblitz.com/github/graycoreio/stackblitz-projects/tree/main/ng13-daffodil-design)                                  | @daffodil/design ｜
+| [An Angular app using `@daffodil/design` with a custom theme](https://stackblitz.com/github/graycoreio/stackblitz-projects/tree/main/ng13-daffodil-design-custom-theme) | @daffodil/design ｜
+>>>>>>> update readme
