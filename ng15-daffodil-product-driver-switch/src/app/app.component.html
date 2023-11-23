@@ -1,0 +1,5 @@
+<div *ngFor="let item of products$ | async">
+  <a [routerLink]="item.url">
+    {{ item.name }}
+  </a>
+</div>
