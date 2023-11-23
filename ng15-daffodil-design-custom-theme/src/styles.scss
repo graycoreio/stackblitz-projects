@@ -1,0 +1,11 @@
+@use '@daffodil/design/scss/global';
+@use '@daffodil/design/scss/theme' as daff-theme;
+@use 'sb-theme';
+
+.daff-theme-light {
+  @include daff-theme.daff-theme(sb-theme.$theme);
+}
+
+.daff-theme-dark {
+  @include daff-theme.daff-theme(sb-theme.$theme-dark);
+}

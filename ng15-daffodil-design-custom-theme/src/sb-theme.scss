@@ -1,0 +1,31 @@
+@use '@daffodil/design/scss/theme' as daff-theme;
+@use 'sb-palettes';
+
+$sb-primary: daff-theme.daff-configure-palette(sb-palettes.$sb-green, 60);
+$sb-secondary: daff-theme.daff-configure-palette(sb-palettes.$sb-blue, 60);
+$sb-tertiary: daff-theme.daff-configure-palette(sb-palettes.$sb-purple, 60);
+
+$theme: daff-theme.daff-configure-theme(
+  $sb-primary,
+  $sb-secondary,
+  $sb-tertiary,
+  'light'
+);
+
+$sb-primary-dark: daff-theme.daff-configure-palette(sb-palettes.$sb-green, 50);
+$sb-secondary-dark: daff-theme.daff-configure-palette(sb-palettes.$sb-blue, 50);
+$sb-tertiary-dark: daff-theme.daff-configure-palette(
+  sb-palettes.$sb-purple,
+  50
+);
+
+$theme-dark: daff-theme.daff-configure-theme(
+  $sb-primary-dark,
+  $sb-secondary-dark,
+  $sb-tertiary-dark,
+  'dark'
+);
+
+$black: daff-theme.daff-map-deep-get($theme, 'core.black');
+$white: daff-theme.daff-map-deep-get($theme, 'core.white');
+$gray: daff-theme.daff-map-deep-get($theme, 'core.gray');
