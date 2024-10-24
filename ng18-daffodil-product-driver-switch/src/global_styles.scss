@@ -1,0 +1,24 @@
+@forward '@daffodil/design/scss/global';
+@use '@daffodil/design/scss/theme' as daff-theme;
+
+@include daff-theme.daff-theme(daff-theme.$theme);
+
+.daff-card {
+  min-height: 450px;
+}
+
+.product-image {
+  object-fit: cover;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 320px));
+  gap: 1vw;
+  margin-top: 2%;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10px;
+}
